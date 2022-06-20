@@ -53,14 +53,18 @@ Summary statistics of mean, median, variance and standard deviation was created 
 A statistical study can be considered to quantify how the MechaCar will perform against its competitors. The question for this study might be “How the MechaCar’s safety performance in comparison to its competitors”. The following questions should be answered for the study design:
 
 - What metric or metrics are you going to test?
+
 This study design would test the cost, fuel efficiency, brake performance and safety rating between the MechaCar and its competitors. 
 
 - What is the null hypothesis or alternative hypothesis?
+
 The null hypothesis is brake efficiency percentage is equal to the required 50% and has no effect on safety performance. The alternative hypothesis is brake efficiency percentage is greater than the required 50% and has a significant effect on vehicle safety performance.
 
 - What statistical test would you use to test the hypothesis? And why?
+
 An ANOVA test might be used to see the safety performance of all vehicles in comparison to the normal distribution.
 
 - What data is needed to run the statistical test?
+
 The necessary data to run the study is safety ratings, vehicle weight, brake effort, all related safety performance measures for MechaCar and its competitors.
 
