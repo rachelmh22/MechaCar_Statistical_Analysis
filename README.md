@@ -4,6 +4,10 @@
 
 The linear regression model for the dataset is mpg = 6.267vehicle_length + 0.001vehicle_weight + 0.069spoiler_angle + 3.546ground_clearance - 3.411AWD - 1.040. From our model, the r-squared value is 0.71 and the p-value is 5.35e-11.
 
+![lm](/images/lm.png)
+
+![summary_lm](/images/summary_lm.png)
+
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - According to the results, vehicle length and ground clearance are the two variables that provided a non-random amount of variance to the mpg values. In turn, meaning they are statistically unlikely to cause random amounts of variance and have a significant impact on mpg. 
 
