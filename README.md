@@ -50,7 +50,7 @@ Summary statistics of mean, median, variance and standard deviation was created 
 
 ## Study Design: MechaCar vs Competition
 
-A statistical study can be considered to quantify how the MechaCar will perform against its competitors. The question for this study might be “How the MechaCar’s safety performance in comparison to its competitors”. The following questions should be answered for the study design:
+A statistical study can be considered to quantify how the MechaCar will perform against its competitors. The question for this study might be “How is the MechaCar’s safety performance in comparison to its competitors?” The following questions should be answered for the study design:
 
 - What metric or metrics are you going to test?
 
