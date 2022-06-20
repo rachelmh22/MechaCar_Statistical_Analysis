@@ -22,6 +22,10 @@ The linear regression model for the dataset is mpg = 6.267vehicle_length + 0.001
 
 Summary statistics of mean, median, variance and standard deviation was created with R for the Suspension Coils dataset. The population PSI mean is 1500 and the mean for all manufacturing lots is 1498.78 according to the results. Another summary was created grouping the results according to manufacturing lots. 
 
+![total_summary](/images/total_summary.png)
+
+![lot_summary](/images/lot_summary.png)
+
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 - The variance for all manufacturing lots in total is 62.29. This is lower than what is dictated by the design specifications, which is 100 pounds per square inch. Therefore, the manufacturing data as a whole meets the design specification. However, if we look at each lot individually, lot 3 does not meet design specifications. The variance is 170.29, which is about greater than 100 pounds per square inch so lot 3 does not meet design requirements. Lot 1 and 2 have a low variance of 0.98 and 7.47 respectively, making the variance for all manufacturing lots meet design requirements even though lot 3 failed. 
 
@@ -30,12 +34,19 @@ Summary statistics of mean, median, variance and standard deviation was created 
 
 - The t-test for all lots resulted in a p-value of 1, which is greater than the significance level of 0.05. Therefore, there is not sufficient evidence to reject the null hypothesis and the two means are statistically similar.
 
+![all_lots](/images/all_lots.png)
+
 - The t-test for lot 1 resulted in a p-value of 1.568e-11, which is less than the significance level of 0.05. Therefore, there is sufficient evidence to reject the null hypothesis and the mean of the sample, lot 1, is statistically different from the population mean.
+
+![lot1](/images/lot1.png)
 
 - The t-test for lot 2 resulted in a p-value of 0.0005911, which is less than the significance level of 0.05. Therefore, there is sufficient evidence to reject the null hypothesis and the mean of the sample, lot 2, is statistically different from the population mean.
 
+![lot2](/images/lot2.png)
+
 - The t-test for lot 3 resulted in a p-value of 0.1589, which is greater than the significance level of 0.05. Therefore, there is not sufficient evidence to reject the null hypothesis and the mean of the sample, lot 3, is statistically similar to the population mean.
 
+![lot3](/images/lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
