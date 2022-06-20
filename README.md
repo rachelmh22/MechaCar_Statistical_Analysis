@@ -61,3 +61,6 @@ The null hypothesis is brake efficiency percentage is equal to the required 50% 
 - What statistical test would you use to test the hypothesis? And why?
 An ANOVA test might be used to see the safety performance of all vehicles in comparison to the normal distribution.
 
+- What data is needed to run the statistical test?
+The necessary data to run the study is safety ratings, vehicle weight, brake effort, all related safety performance measures for MechaCar and its competitors.
+
